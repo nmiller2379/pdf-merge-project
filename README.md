@@ -27,3 +27,4 @@ If you're interested in the project or have suggestions, feel free to open an is
 A full CONTRIBUTING guide may be added in the future.
 
 ## License
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. See the [LICENSE](./LICENSE.md) file for details.
