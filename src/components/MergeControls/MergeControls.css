@@ -1,0 +1,8 @@
+.merge-controls {
+  width: 100%;
+}
+
+.merge-controls__actions {
+  display: flex;
+  gap: 12px;
+}
