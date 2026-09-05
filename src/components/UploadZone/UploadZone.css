@@ -1,3 +1,51 @@
 .upload-zone {
   width: 100%;
+  text-align: left;
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.upload-zone h2 {
+  font-size: 24px;
+  margin-bottom: var(--space-4);
+}
+
+.upload-zone__drop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-soft);
+}
+
+.upload-zone__drop p {
+  color: var(--text-muted);
+}
+
+.upload-zone button {
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--primary);
+  color: #fff;
+  padding: 10px 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background: var(--primary-strong);
+  }
+}
+
+@media (max-width: 768px) {
+  .upload-zone__drop {
+    padding: var(--space-4);
+  }
 }
