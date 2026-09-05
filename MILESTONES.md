@@ -60,6 +60,8 @@ Create the foundational user interface for the application.
 - File list section
 - Page management section
 - Button styling and layout
+- Bootstrap integration
+- React Bootstrap integration
 
 ---
 
