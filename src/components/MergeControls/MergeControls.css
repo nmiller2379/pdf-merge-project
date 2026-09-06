@@ -1,0 +1,54 @@
+.merge-controls {
+  width: 100%;
+  text-align: left;
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.merge-controls h2 {
+  font-size: 22px;
+  margin-bottom: var(--space-4);
+}
+
+.merge-controls__actions {
+  display: flex;
+  gap: 12px;
+}
+
+.merge-controls__button {
+  flex: 1;
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.merge-controls__button--primary {
+  color: #fff;
+  background: var(--primary);
+
+  &:hover {
+    background: var(--primary-strong);
+  }
+}
+
+.merge-controls__button--secondary {
+  color: var(--text);
+  background: var(--surface-soft);
+  border-color: var(--border);
+
+  &:hover {
+    background: #eff4ff;
+  }
+}
+
+@media (max-width: 640px) {
+  .merge-controls__actions {
+    flex-direction: column;
+  }
+}
